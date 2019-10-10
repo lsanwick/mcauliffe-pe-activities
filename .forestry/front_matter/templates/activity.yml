@@ -20,7 +20,7 @@ fields:
     required: true
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: markdown
   label: Supplies
   description: A list of supplies needed for this activity
 - name: summary
@@ -30,7 +30,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: markdown
   label: Summary
   description: Describe the activity and theme
 - name: instructions
@@ -41,8 +41,6 @@ fields:
     required: true
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: markdown
   label: Instructions
   description: Instructions on how to play this game
-pages:
-- contents/activities/backyard-cleanup.md
