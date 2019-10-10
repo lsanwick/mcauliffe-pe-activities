@@ -10,6 +10,13 @@ sections:
   path: content/about/info.md
   label: Info Page
 - type: directory
+  path: contents/activities
+  label: Activities
+  create: all
+  match: "**/*"
+  templates:
+  - activity
+- type: directory
   path: content/blog-posts
   label: Blog posts
   create: all
