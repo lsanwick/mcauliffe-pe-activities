@@ -7,7 +7,7 @@
   </a>
 </p>
 <h1 align="center">
-  Brevifolia
+  Christa McAuliffe PE Activities
 </h1>
 
 ## About
