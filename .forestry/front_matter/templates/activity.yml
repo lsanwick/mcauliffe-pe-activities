@@ -44,3 +44,5 @@ fields:
       format: html-blocks
   label: Instructions
   description: Instructions on how to play this game
+pages:
+- contents/activities/backyard-cleanup.md
