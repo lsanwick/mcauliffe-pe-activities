@@ -1,4 +1,45 @@
 ---
 label: Activity
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Tags that describe the kind of activity
+- name: supplies
+  type: textarea
+  default: "<ul><li><p>Thing 1</p></li><li><p>Thing 2</p></li><li><p>Thing 3</p></li></ul>"
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Supplies
+  description: A list of supplies needed for this activity
+- name: summary
+  type: textarea
+  default: "<p>Here is a basic summary of what you can do in this activity.</p>"
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Summary
+  description: Describe the activity and theme
+- name: instructions
+  type: textarea
+  default: "<ol><li><p>Do this first</p></li><li><p>Do this second</p></li><li><p>Do
+    this last</p></li></ol>"
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Instructions
+  description: Instructions on how to play this game
